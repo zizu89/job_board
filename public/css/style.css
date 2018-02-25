@@ -1,0 +1,73 @@
+/**** Custom css ****/
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	text-align: center;
+}		
+
+a.logo{
+	background-color: #4D4D4D;
+	color: #FFFFFF !important;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+a.logo:hover,
+a.logo:active{
+	background-color: #4D4D4D !important;
+}
+
+.main-content{
+	/*border: 1px solid blue;*/
+}
+
+/*navigation*/
+.main-nav{
+	border: none;
+	border-bottom: 1px solid #4D4D4D;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#main-manu ul li a{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#main-manu ul li a:hover,
+#main-manu ul li a:active{
+	color: #FF9900;
+}
+
+#main-manu ul li.active a{
+	color: #FF9900;
+	background-color: transparent;
+}
+
+/*end navigation*/
+
+/*job submission*/
+.submisson-from{
+	box-shadow: 0px 0px 10px #000000;
+	border: 1px dotted #CCCCCC;
+	padding: 15px;
+}
+
+.btn-frame{
+	text-align: center;
+}
+/*end job submisson*/
+
+.job-status-pnl{
+	margin-top: 15px;
+}
+
+#flash-msg{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 10;
+}	
